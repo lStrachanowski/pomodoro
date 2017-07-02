@@ -1,0 +1,135 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body{
+  background-color: rgba(0, 164, 125, 0.56);
+
+}
+
+.optionContainer{
+text-align: center;
+}
+
+.optionContainerPosition{
+display: inline-block;
+padding: 3%;
+}
+
+.optionFont{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family: 'Arial Black', Gadget, sans-serif;
+  display: inline-block;
+}
+.optionFontValue{
+  color: rgb(5, 97, 78);
+  font-size: 50px;
+  display: inline-block;
+}
+
+.clockFont{
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-family: 'Arial Black', Gadget, sans-serif;
+  display: inline-block;
+  font-weight:900;
+}
+
+.floatClass{
+  float: left;
+}
+
+.clockContainer{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 199, 89); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, rgb(255, 199, 89), rgb(255, 252, 181)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right,  rgb(255, 199, 89), rgb(255, 252, 181)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, rgb(255, 199, 89), rgb(255, 252, 181)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, rgb(255, 199, 89), rgb(255, 252, 181)); /* Standard syntax */
+  border-radius: 50%;
+}
+
+.centerDigits{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.bottomCountCircle{
+  background-color: rgb(255,255,255);
+}
+
+
+.plusMinusStyleLeft{
+  position: absolute;
+  font-size: 100px;
+  top:33%;
+  left: -20%;
+  cursor: pointer;
+  transition: 1.0s;
+}
+
+.plusMinusStyleLeft:hover{
+  color: rgb(2, 111, 135);
+}
+
+.plusMinusStyleRight{
+  position: absolute;
+  font-size: 100px;
+  top:33%;
+  left: 105%;
+  cursor: pointer;
+  transition: 1.0s;
+}
+.plusMinusStyleRight:hover{
+  color: rgb(2, 111, 135);
+}
+
+
+.setBtn{
+  color: rgb(255, 255, 255);
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top:90%;
+  transform: translate(-50%, -90%);
+  transition: 0.7s;
+  padding: 10px;
+  border: 1px solid white;
+
+}
+.setBtn:hover{
+  color: rgb(2, 111, 135);
+  background-color: rgb(21, 177, 154);
+}
+.stateDisplay{
+  font-size: 25px;
+  color: rgb(2, 111, 135);
+  font-family: 'Arial Black', Gadget, sans-serif;
+  display: inline-block;
+  font-weight:900;
+  position: absolute;
+  left: 50%;
+  top:65%;
+  transform: translate(-50%, -65%);
+}
+
+.canvasTop{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
