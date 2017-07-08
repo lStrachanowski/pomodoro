@@ -48,7 +48,7 @@ $(document).ready(function() {
           $("div.displayMin").html(min);
         }, 10);
       }
-      timeCount = setInterval(myFunc, 10);
+      timeCount = setInterval(myFunc, 1000);
       $("div.displayMin").html(min);
       if (state == "" || state == "work") {
         state = "work";
@@ -77,6 +77,7 @@ $(document).ready(function() {
     sec -= 1;
     $("div.displaySec").html(sec);
     $("#stateDisplay").html(state);
+
     if (sec == 0) {
       if (min == 0 && sec == 0 && state == "work") {
         min = breakMin;
@@ -89,9 +90,9 @@ $(document).ready(function() {
       }
       min -= 1;
       sec = 60;
-      $("div.displayMin").html(min);
       $("div.displaySec").html("00");
-
+    }else{
+      $("div.displayMin").html(min);
     }
     if (sec < 10) {
       $("div.displaySec").html(0 + "" + sec);
